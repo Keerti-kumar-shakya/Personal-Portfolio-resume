@@ -1,0 +1,172 @@
+.Acheivements-Projects-page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+ padding-left: 100px;
+}
+
+.Acheivements-Project {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+
+
+}
+
+.Acheivements-Project span{
+color:#04adf3;
+}
+
+.Projects-container  {
+  
+  width: 1600px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 650px;
+
+}
+
+.Achievements-project {
+
+  width: 1600px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr;
+
+}
+
+.achieve-box {
+  
+}
+
+.Achievements {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.list-Achievements {
+  border: 1px solid white;
+  display: flex;
+ 
+ 
+}
+
+.types-achievements {
+  border: 1px solid white;
+  width: 533.33px;
+}
+
+
+.Projects-para {
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(218, 238, 144);
+  text-shadow: 0 0 15px rgb(189, 172, 172),0 4px 0 rgb(76, 68, 68),4px 0 0 rgb(151, 141, 121) ;
+}
+
+
+.Projects-links {
+  border: 3px solid lightgoldenrodyellow;
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+align-items: center;
+  flex-wrap: wrap;
+border-radius: 0.5rem;
+
+}
+
+.Projects-links:hover{
+  box-shadow: 0 0 35px white, 0 0 35px lightseagreen, 0 0 35px lightpink;
+  transition: 0.15s;
+}
+
+.box3{
+position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+ perspective: 1000px;
+
+
+}
+
+.box3-transform { 
+  background-color: rgb(189, 240, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: rgb(206, 182, 130) 0px 10px 20px 0px, rgb(204, 0, 255) 0px 18px 26px -18px;
+  
+  transform: rotateY(180deg);
+
+ transition: all 0.9s ease-in-out;
+
+z-index: 4;
+
+}
+
+.project-discription {
+  position: relative;
+  border: 1px solid red;
+  width: 200px;
+ height: 75px;
+  border-radius: 0.5rem;
+  background-color: rgba(250, 202, 209,0.2);
+  box-shadow: rgb(226, 107, 152) 0px 10px 20px 0px, rgb(0, 200, 255) 0px 18px 26px -18px;
+   z-index: 3;
+   perspective: 1000px;
+   color: rgba(10, 10, 10, 0.8);
+   font-weight: 500;
+   font-family: Roboto;
+}
+
+
+.box3 img, .box3-transform {
+  position: absolute;
+  top: 0;
+  width: 200px;
+ height: 200px;
+  border-radius: 0.5rem;
+  backface-visibility: hidden;
+  border: none;
+ 
+}
+
+
+
+.box3:hover .box3-transform{
+
+  transform: rotateY(0deg);
+ 
+}
+
+.project-discription:hover .box3-transform{
+  transform: rotateY(0deg);
+ 
+}
+
+.box3-transform a{
+text-decoration: none;
+color: black;
+
+
+
+}
+
+.box3-transform a:hover{
+  text-shadow: 0 0 5px rgb(221, 197, 153), 0 0 5px rgb(255, 217, 0);
+
+}
+
