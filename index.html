@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/Person-Portfolio-main.css">
     <link rel="stylesheet" href="./css/Header.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -11,6 +13,10 @@
     <link rel="stylesheet" href="./css/Technologies-Skill.css">
     <link rel="stylesheet" href="./css/Acheivements-Projects.css">
     <link rel="stylesheet" href="./css/Contact.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./scripts/siderbar.js" defer></script>
+
     <title>Person Portfolio</title>
   </head>
   <body>
@@ -35,6 +41,38 @@
 
         </div>
 
+        <div class="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>
+      
+      <div class="add-sidebar-js">
+        <button class="button-exist">X</button>
+        <div class="sidbar-link">
+          <ul class="sidbar-link-container">
+            <li><a href="#profile-page">Home</a></li>
+            <li><a href="#about-page">About</a></li>
+            <li><a href="#Education-page">Education</a></li>
+            <li><a href="#Technologies-Skills-page">Technologies & Skills I Know</a></li>
+            <li><a href="#Acheivements-Projects-page">Acheivements & Projects</a></li>
+            <li><a href="#contact-page">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="social-link">
+          <a href="https://github.com/Keerti-kumar-shakya" target="_blank" rel="noopener noreferrer"><img src="./Social-icon/github-logo-156.png" alt=""></a>
+        
+
+        <a href="https://www.linkedin.com/in/keerti-kumar-shakya-789a75114/" target="_blank" rel="noopener noreferrer"><img src="./Social-icon/linkedin-square-logo-156.png" alt=""></a>
+
+        </div>
+
+      </div>
+
+      
+      
+
       </div>
 <!--###-->
 <div class="profile-container">
@@ -43,7 +81,7 @@
 
         <p>Hi, I'm Keerti Kumar Shakya</p>
         <p>Frontend Developer</p>
-        <p>I design and code beautifully simple things, and I love what I do. <span class="cot-para">"Every great developer you know got there by solving problems they were unqualified to solve until they did it."</span><span class="author-para">Patrick McKenzie</span>. This quote inspires me to push every day and try every aspect to achieve the hardest designs.</p>
+        <p>I design and code beautifully simple things, and I love what I do. <span class="cot-para">"Every great developer you know got there by solving problems they were unqualified to solve until they did it."</span><span class="author-para"> Patrick McKenzie</span>. This quote inspires me to push every day and try every aspect to achieve the hardest designs.</p>
         
       </div>
 
@@ -64,16 +102,14 @@
       </div>
 <!--###-->
       <div class="social-media-links">
-        <a href="https://www.facebook.com/kkshakyarules/" target="_blank" rel="noopener noreferrer"><img src="./Social-icon/facebook-circle-logo-156.png" alt=""></a>
-
+      
         <a href="https://github.com/Keerti-kumar-shakya" target="_blank" rel="noopener noreferrer"><img src="./Social-icon/github-logo-156.png" alt=""></a>
         
-
-        <a href="https://www.instagram.com/keerti.shakya/" target="_blank" rel="noopener noreferrer"><img src="./Social-icon/instagram-alt-logo-156.png" alt=""></a>
 
         <a href="https://www.linkedin.com/in/keerti-kumar-shakya-789a75114/" target="_blank" rel="noopener noreferrer"><img src="./Social-icon/linkedin-square-logo-156.png" alt=""></a>
 
       </div>
+
 
 <!--###-->
     </div>
@@ -87,22 +123,69 @@
       <div class="about-img-picture"><img src="./Profile-Images/keerti-image-2.jpg" alt=""></div>
 
       <p class="about-page-para">Frontend Developer</p>
-      <p class="about-page-para2">Hello! I'm Keerti kumar shakya, a passionate web developer dedicated to crafting exceptional digital experiences.</p>
-      <p class="about-page-para2">I am a fresher right now, but I am eager to contribute my skills to companies and want to enhance my skills by working on challenging projects.</p>
-      <p class="about-page-para2 about-imortant">My skill set includes proficiency in HTML5, CSS3, JavaScript (ES6+), frameworks like react.js, and other relevant skills like Git incorporating which I have built dynamic and interactive web applications.
-      </p>
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+         
+        </div>
+        
+        <div class="carousel-inner">
 
-      <p class="about-page-para2">I am deeply passionate about translating innovative ideas into functional and visually appealing websites. My goal is to create seamless user experiences that leave a lasting impression.</p>
+          <div class="carousel-item active">
+            <p class="about-page-para2">Hello! I'm Keerti kumar shakya, a passionate web developer dedicated to crafting exceptional digital experiences.</p>
+          </div>
 
-      <p class="about-page-para2"> I take pride in my work on projects like YouTube clones, portfolios, e-commerce websites, and other capstone projects where I successfully overcame the challenges through constant practice. These experiences have honed my ability to strengthen my web developer skills.</p>
+          <div class="carousel-item">
+            <p class="about-page-para2">I am a fresher right now, but I am eager to contribute my skills to companies and want to enhance my skills by working on challenging projects.</p>
+          </div>
 
-      <p class="about-page-para2">I am dedicated to staying at the forefront of web development trends. Constantly exploring new technologies and methodologies, I strive to bring the latest and best practices to every project.</p>
+          <div class="carousel-item">
+            <p class="about-page-para2 about-imortant">My skill set includes proficiency in HTML5, CSS3, JavaScript (ES6+), frameworks like react.js, and other relevant skills like Git incorporating which I have built dynamic and interactive web applications.
+            </p>
+          </div>
 
-      <p class="about-page-para2">I thrive in collaborative environments, valuing open communication and teamwork. I believe that successful projects are built on strong collaboration and a shared commitment to excellence.</p>
+          <div class="carousel-item">
+            <p class="about-page-para2">I am deeply passionate about translating innovative ideas into functional and visually appealing websites. My goal is to create seamless user experiences that leave a lasting impression.</p>
+          </div>
 
-      <p class="about-page-para2 about-imortant">Beyond coding, I enjoy exploring the intersection of technology and art. I firmly believe that creativity fuels innovation, and I bring this philosophy into both my work and daily life. Whether I'm crafting a sleek user interface or experimenting with a new painting technique, I find that embracing creativity enhances my problem-solving skills and brings a unique perspective to everything I do.</p>
+          <div class="carousel-item">
+            <p class="about-page-para2"> I take pride in my work on projects like YouTube clones, portfolios, e-commerce websites, and other capstone projects where I successfully overcame the challenges through constant practice. These experiences have honed my ability to strengthen my web developer skills.</p>
+          </div>
 
-      <button>Read More</button>
+          <div class="carousel-item">
+            <p class="about-page-para2">I am dedicated to staying at the forefront of web development trends. Constantly exploring new technologies and methodologies, I strive to bring the latest and best practices to every project.</p>
+          </div>
+
+
+          <div class="carousel-item">
+            <p class="about-page-para2">I thrive in collaborative environments, valuing open communication and teamwork. I believe that successful projects are built on strong collaboration and a shared commitment to excellence.</p>
+          </div>
+
+
+          <div class="carousel-item">
+            <p class="about-page-para2 about-imortant">Beyond coding, I enjoy exploring the intersection of technology and art. I firmly believe that creativity fuels innovation, and I bring this philosophy into both my work and daily life. Whether I'm crafting a sleek user interface or experimenting with a new painting technique, I find that embracing creativity enhances my problem-solving skills and brings a unique perspective to everything I do.</p>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <button class="read-me">Read More</button>
 
     </div>
 
@@ -381,8 +464,6 @@
 
 
 
-
-
     <!--####################################################################-->
 
     <div id="Acheivements-Projects-page" class="Acheivements-Projects-page box">
@@ -397,8 +478,8 @@
             <div class="project-discription">YouTube Clone built by HTML5 and CSS3(Big Project)</div>
               <img src="./Project-Images/youtube-logo.jpeg" alt="">
             <div class="box3-transform">
-              <a href="https://github.com/Keerti-kumar-shakya/YouTube-Clone" target="_blank" rel="noopener noreferrer">YouTube Clone code link</a>
-              <a target="_blank" href="https://keerti-kumar-shakya.github.io/YouTube-Clone/">YouTube Clone Host link</a>
+              <a href="https://github.com/Keerti-kumar-shakya/YouTube-Clone" target="_blank" rel="noopener noreferrer">Code link</a>
+              <a target="_blank" href="https://keerti-kumar-shakya.github.io/YouTube-Clone/">Host link</a>
             </div>
           
           </div>

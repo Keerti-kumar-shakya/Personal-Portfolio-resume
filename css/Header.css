@@ -3,11 +3,19 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 z-index: 10;
+border: 1px solid white;
+  background-color: black;
+  position: fixed;
+left: 0;
+right: 0;
+top: 0;
 
 }
 
+
+
 .header-left-section {
-  
+  border: 1px solid white;
   display: flex;
   width: 300px;
   height: 100px;
@@ -32,20 +40,21 @@ border-radius: 50%;
 
 
 .Portfolio-para{
+  
   font-size: 23px;
 }
 
 .header-right-section {
-  
-  width: 1200px;
+  border: 1px solid white;
+  width: 1300px;
   height: 100px;
  
 }
 
 .nav-link {
- 
+  border: 1px solid white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
  align-items: center;
   font-size: 20px;
   height: 100px;
@@ -53,7 +62,7 @@ border-radius: 50%;
 }
 
 .nav-link li{
-  
+  border: 1px solid white;
   position: relative;
 
 
@@ -68,8 +77,8 @@ border-radius: 50%;
 .nav-link li a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
-  color: lightseagreen;
+  font-size: 22px;
+
 }
 
 .header-right-section .nav-link li a:hover{
@@ -92,6 +101,20 @@ transition: 0.15s;
   position: relative;
 }
 
+.menu-icon{
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar{
+  background-color: #fff;
+  height: 5px;
+  width: 30px;
+  margin:5px 0;
+}
+
+
 @keyframes jump {
 
   0%{
@@ -105,5 +128,29 @@ transition: 0.15s;
   }
 }
 
+@media only screen and (max-width:1192px){
+  .header-right-section {
+    display: none;
+    width: 0px;
+  }
 
+  .header {
+width: 100%;
+justify-content: none;
+  }
+
+  .menu-icon{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.bar{
+    background-color: #fff;
+    height: 5px;
+    width: 30px;
+    margin:5px 0;
+}
+}
 

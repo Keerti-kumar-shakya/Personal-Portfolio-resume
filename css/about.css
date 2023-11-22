@@ -11,8 +11,7 @@
 
 
 .about-page {
-  background-color: #091b2a;
-  padding-left: 100px;
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -67,14 +66,8 @@ color: white;
 }
 
  .about-page-para2{
- animation-name: disappear;
- animation-duration: 6s;
- animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
- animation-delay: 0s;
- animation-iteration-count: 6s;
- animation-fill-mode: both;
- animation-direction: alternate;
-  width: 1000px;
+
+width: 650px;
   font-size: 18px;
   position: relative;
 }
@@ -84,7 +77,7 @@ color: white;
   color: lightpink;
 }
 
-.about-page button{
+.about-page .read-me{
 
   padding:10px 20px 10px 20px;
   font-size: 20px;
@@ -99,16 +92,32 @@ color: white;
   
 }
 
-@keyframes disappear {
 
-  0%{
-left: 100px;
-display: none;
-  }
 
-  100%{
-left: 0px;
-display: block;
-  }
+.carousel-inner {
+
+  width: 900px;
+  border: 1px solid white;
+  display: flex;
+ align-items: center;
+align-items: center;
+border-radius: 0.5rem;
 
 }
+
+.carousel-item{
+ margin-left: 100px;
+
+text-align: justify;
+  width: 700px;
+height: 200px;
+padding-left: 25px;
+margin-top: 50px;
+
+}
+
+.carousel-indicators {
+
+
+}
+
