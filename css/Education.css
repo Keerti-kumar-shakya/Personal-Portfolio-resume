@@ -175,6 +175,9 @@ font-size: 15px;
 
 
 @media only screen and (max-width:1042px){
+  .journey {
+    font-size: 35px;
+  }
 
   .Education-page{
    height: 800px;
@@ -235,6 +238,9 @@ font-size: 15px;
 
 
 @media only screen and (max-width:923px){
+  .journey {
+    font-size: 30px;
+  }
 
   .Education-page{
    height: 800px;
@@ -244,7 +250,6 @@ font-size: 15px;
     width: 400px;
     height: 130px;
     justify-content: space-between; 
-   
    
   }
 
@@ -296,6 +301,11 @@ font-size: 14px;
 
 
 @media only screen and (max-width:810px){
+ 
+  .journey {
+    font-size: 30px;
+  }
+
 
   .Education-page{
    height: 800px;
@@ -335,11 +345,16 @@ width: 400px;
     grid-template-columns: 300px;
     row-gap: 0px;
     margin-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
 
   }
 
 .deg-date-edu {
 font-size: 14px;
+   padding-left: 5px;
+    padding-right: 5px;
+
  }
 
 .deg-date-edu img {
@@ -349,6 +364,9 @@ font-size: 14px;
 
 .deg-universty, .marks, .divison {
   font-size: 14px;
+  padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 
@@ -363,7 +381,7 @@ font-size: 14px;
 }
 
   .box0,.box1 {
-    width: 330px;
+    width: 300px;
     height: 130px;
     justify-content: space-between; 
    
@@ -372,7 +390,7 @@ font-size: 14px;
 
 
 .Education-experience-heading {
-  width: 750px;
+  width: 670px;
   column-gap: 15px;
 font-size: 20px;
 }
@@ -380,20 +398,25 @@ font-size: 20px;
 .Education-heading, .experience-heading {
   border: 1px solid white;
 width: 300px;
+
+}
+
+.experience-heading {
+  padding-left: 15px;
 }
 
 .Education-heading {
-  padding-right: 20px;
+  padding-left: -20px;
 }
 
 .Education-experience-container {
-  width: 820px;
+  width: 660px;
 }
 
   .Education-container, .experience-container {
-    width: 330px;
+    width: 300px;
     height: 600px;
-    grid-template-columns: 280px;
+    grid-template-columns: 250px;
     row-gap: 0px;
     margin-right: 50px;
 

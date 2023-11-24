@@ -20,7 +20,7 @@ color:#04adf3;
 }
 
 .Projects-container  {
-  
+  border: 1px solid red;
   width: 1600px;
   height: 700px;
   display: grid;
@@ -29,8 +29,8 @@ color:#04adf3;
 
 }
 
-.Achievements-project {
-
+.Achievements-achieved {
+  border: 1px solid white;
   width: 1600px;
   height: 350px;
   display: grid;
@@ -40,7 +40,7 @@ color:#04adf3;
 }
 
 .achieve-box {
-  
+
 }
 
 .Achievements {
@@ -64,7 +64,6 @@ color:#04adf3;
 
 
 .Projects-para {
-
   text-align: center;
   font-size: 30px;
   font-weight: bold;
@@ -97,7 +96,6 @@ position: relative;
   border-radius: 0.5rem;
  perspective: 1000px;
 
-
 }
 
 .box3-transform { 
@@ -123,12 +121,12 @@ z-index: 4;
   width: 200px;
  height: 75px;
   border-radius: 0.5rem;
-  background-color: rgba(250, 202, 209,0.2);
+  background:linear-gradient(0deg, rgb(196, 196, 212) 0%, rgb(150, 150, 240) 35%, rgb(138, 187, 197) 100%);
   box-shadow: rgb(226, 107, 152) 0px 10px 20px 0px, rgb(0, 200, 255) 0px 18px 26px -18px;
    z-index: 3;
    perspective: 1000px;
-   color: rgba(10, 10, 10, 0.8);
-   font-weight: 500;
+   color: rgba(10, 10, 10, 1);
+   font-weight: bold;
    font-family: Roboto;
 }
 
@@ -169,4 +167,216 @@ color: black;
   text-shadow: 0 0 5px rgb(221, 197, 153), 0 0 5px rgb(255, 217, 0);
 
 }
+
+/*############################################################*/
+
+@media only screen and (max-width: 1656px){
+  .Acheivements-Projects-page {
+    padding-left: 0px;
+  }
+
+  .Projects-container {
+    width: 1300px;
+    height: 640px;
+    grid-template-rows: 50px 580px;
+  }
+
+  .box3 {
+    width: 170px;
+    height: 170px;
+  }
+
+  .project-discription {
+    width: 170px;
+    font-size: 15px;
+  }
+
+  .box3 img, .box3-transform {
+    width: 170px;
+    height: 170px;
+  }
+
+  .Achievements-achieved {
+    width: 1300px;
+    height:300px; ;
+    grid-template-rows: 40px 1fr;
+  }
+
+  .types-achievements {
+    
+    width: 433.33px;
+  }
+  
+
+  .Acheivements-Project {
+    font-size: 35px;
+  
+  }
+
+  .Achievements {
+    font-size: 30px;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 1279px){
+  .Acheivements-Projects-page {
+    padding-left: 0px;
+    height: 1000px;
+  }
+
+  .Projects-container {
+    width: 1120px;
+    height: 550px;
+    grid-template-rows: 50px 500px;
+  }
+
+  .box3 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .project-discription {
+    width: 150px;
+    font-size: 14px;
+  }
+
+  .box3 img, .box3-transform {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Achievements-achieved {
+    width: 1120px;
+    height:300px; ;
+    grid-template-rows: 40px 1fr;
+  }
+
+  .types-achievements {
+    
+    width: 373.33px;
+  }
+
+  .Acheivements-Project {
+    font-size: 35px;
+  
+  }
+
+  .Achievements {
+    font-size: 30px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 1094px){
+  .Acheivements-Projects-page {
+    padding-left: 0px;
+    height: 1050px;
+    justify-content: start;
+   
+  }
+
+  .Projects-container {
+    width: 750px;
+    height: 750px;
+    grid-template-rows: 50px 700px;
+  }
+
+  .box3 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .project-discription {
+    width: 130px;
+    font-size: 14px;
+  }
+
+  .box3 img, .box3-transform {
+    width: 130px;
+    height: 130px;
+  }
+
+  .Achievements-achieved {
+    width: 750px;
+    height:250px; ;
+    grid-template-rows: 40px 1fr;
+    margin-top: 10px;
+  }
+
+  .types-achievements {
+    
+    width: 250px;
+  }
+
+  .Acheivements-Project {
+    font-size: 35px;
+  
+  }
+
+  .Achievements {
+    font-size: 30px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 726px){
+  .Acheivements-Projects-page {
+    padding-left: 0px;
+    height: 1050px;
+    justify-content: start;
+   
+  }
+
+  .Projects-container {
+    width: 540px;
+    height: 830px;
+    grid-template-rows: 37px 750px;
+  }
+
+  .box3 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .project-discription {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .box3 img, .box3-transform {
+    width: 120px;
+    height: 120px;
+  }
+
+  .Achievements-achieved {
+    width: 540px;
+    height:250px; ;
+    grid-template-rows: 40px 1fr;
+    margin-top: 10px;
+  }
+
+  .types-achievements {
+    
+    width: 180px;
+  }
+
+  .Acheivements-Project {
+    font-size: 28px;
+  
+  }
+
+  .Achievements {
+    font-size: 25px;
+  }
+  
+  .Projects-para {
+    font-size: 25px;
+  }
+}
+
 

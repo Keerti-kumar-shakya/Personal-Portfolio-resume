@@ -1,21 +1,20 @@
 .contact-page {
- 
-  
-  display: flex;
+  border:1px solid orange;
+ display: flex;
   justify-content: center;
   align-items: center;
-
   color: white;
   font-family: Roboto;
 }
 
 .box4 {
-
+ border:1px solid white;
   width: 600px;
-  height: 400px;
+  height: 450px;
 }
 
 .Author-bio {
+  border:1px solid white;
   display: flex;
  flex-direction: column;
  justify-content:left;
@@ -23,23 +22,22 @@
 }
 
 .bio1{
-  height: 100px;
- 
+  height: 112px;
+  border:1px solid white;
  
 }
 
 .author-1 {
+  border:1px solid white;
   display: flex;
-
-align-items: center;
+  align-items: center;
   font-size: 50px;
-
   font-weight: bold;
 
 }
 
 .author-Email {
-display: flex;
+  display: flex;
 justify-content: left;
 align-items: center;
 }
@@ -70,13 +68,13 @@ padding-left: 20px;
   text-decoration: none;
   color: white;
   background-color: #e71948;
-  padding: 20px 25px 20px 25px;
+  padding: 15px 20px 15px 20px;
   font-size: 25px;
 }
 
 .author-CV button {
   background-color: #e71948;
-  padding: 20px 25px 20px 25px;
+  padding: 15px 20px 15px 20px;
   margin-right: 170px;
   border-radius: 1rem;
   border: none;
@@ -85,7 +83,7 @@ margin-top: 13px;
 }
 
 .author-CV button:hover {
-  padding: 25px 30px 25px 30px;
+  padding: 20px 25px 20px 25px;
 transition: 0.15s;
 }
 
@@ -94,10 +92,11 @@ transition: 0.15s;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
+  border:1px solid red;
 }
 
 .user-data input:nth-child(1), .user-data input:nth-child(2) {
+ 
   font-size: 20px;
   width: 100%;
 height: 60px;
@@ -111,6 +110,7 @@ padding-left: 10px;
 
 
 textarea {
+  
   width: 100%;
   height: 250px;
   background-color: #272627;
@@ -119,4 +119,46 @@ textarea {
   color: white;
   border: none;
   padding-left: 10px;
+}
+
+.submit-button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0.3rem;
+  font-size: 20px;
+  font-family: Roboto, Arial;
+  background-color: lightslategray;
+  color: white;
+  text-shadow: 0 0 2px black,0 0 5px lightsalmon;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  color: rgb(61, 60, 60);
+  background-color: whitesmoke;
+  transition: 0.15s;
+
+}
+
+
+
+@media only screen and (max-width:1283px ){
+  .contact-page{
+ padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width:1178px ){
+  .contact-page{
+ flex-direction: column;
+    
+  }
+}
+
+
+@media only screen and (max-width:1178px ){
+  .contact-page{
+ flex-direction: column;
+    
+  }
 }
