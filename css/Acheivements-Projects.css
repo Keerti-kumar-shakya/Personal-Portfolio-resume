@@ -380,3 +380,60 @@ color: black;
 }
 
 
+@media only screen and (max-width: 726px){
+  .Acheivements-Projects-page {
+    padding-left: 0px;
+    height: 1250px;
+    justify-content: start;
+   
+  }
+
+  .Projects-container {
+    width: 390px;
+    height:985px;
+    grid-template-rows: 37px 900px;
+  }
+
+  .box3 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .project-discription {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .box3 img, .box3-transform {
+    width: 120px;
+    height: 120px;
+  }
+
+  .Achievements-achieved {
+    width: 390px;
+    height:280px; ;
+    grid-template-rows: 40px 1fr;
+    margin-top: 15px;
+  }
+
+  .types-achievements {
+    
+    width: 130px;
+  }
+
+  .Acheivements-Project {
+    font-size: 25px;
+  
+  }
+
+  .Achievements {
+    font-size: 25px;
+  }
+  
+  .Projects-para {
+    font-size: 20px;
+  }
+}
+
+
+

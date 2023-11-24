@@ -412,3 +412,79 @@ margin-top: 115px;
 
    
  }
+
+
+ @media only screen and (max-width:425px){
+  .profile-container {
+    grid-template-columns: 300;
+    grid-template-rows: 300px;
+    column-gap: 0px;
+  } 
+
+  .profile-container{
+  width: 300px;
+  margin-top:100px;
+  }
+
+  .profile-page{
+    height: 870px;
+  
+  
+    }
+
+    .Profile-name {
+      justify-content: start;
+     
+    }
+  
+
+    .profile-picture {
+      margin-top: 120px;
+    }
+
+  .profile-picture-box img {
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .profile-name-container p:nth-child(1) {
+    font-size: 26px;
+    
+  }
+  
+  .profile-name-container p:nth-child(2) {
+    font-size: 21px;
+  }
+  
+  .profile-name-container p:nth-child(3) {
+    font-size: 16px;
+    border: 1px solid white;
+  }
+
+  .button-profile button:nth-child(1) {
+  
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    
+    margin-right: 25px;
+  }
+  
+  .button-profile button:nth-child(2) {
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    
+  }
+
+  .Download-CV {
+    padding: 15px 18px 15px 18px;
+    font-size: 18px;
+  }
+
+  .Download-CV:hover {
+    font-size: 20px;
+   
+  }
+
+   
+ }

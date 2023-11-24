@@ -393,6 +393,7 @@ font-size: 14px;
   width: 670px;
   column-gap: 15px;
 font-size: 20px;
+height: 30px;
 }
 
 .Education-heading, .experience-heading {
@@ -436,5 +437,76 @@ font-size: 14px;
 }
 
 
+}
+
+
+@media only screen and (max-width:425px){
+
+  .Education-page{
+   height: 750px;
+}
+
+  .box0,.box1 {
+    width: 200px;
+    height: 120px;
+    justify-content: space-between; 
+   
+   
+  }
+
+
+.Education-experience-heading {
+  width: 390px;
+  column-gap: 15px;
+font-size: 14px;
+}
+
+.Education-heading, .experience-heading {
+  border: 1px solid white;
+width: 185px;
+
+}
+
+.experience-heading {
+  padding-left: 15px;
+}
+
+.Education-heading {
+  padding-left: -20px;
+}
+
+.Education-experience-container {
+  width: 400px;
+}
+
+  .Education-container, .experience-container {
+    width: 180px;
+    height: 550px;
+    grid-template-columns: 180px;
+    row-gap: 0px;
+    margin-right: 30px;
+
+  }
+
+.deg-date-edu {
+font-size: 12px;
+ }
+
+.deg-date-edu img {
+ width: 15px;
+ height: 15px;
+}
+
+.deg-universty, .marks, .divison {
+  font-size: 12px;
+}
+
+.box1 {
+  margin-left: 10px;
+}
+
+.journey {
+  font-size: 25px;
+}
 }
 

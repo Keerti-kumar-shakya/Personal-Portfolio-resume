@@ -194,3 +194,51 @@ height: 800px;
  }
 }
 
+
+@media only screen and (max-width: 425px){
+
+  .about-page {
+height: 800px;
+  }
+
+  .head-about {
+    font-size: 30px;
+  }
+
+  .about-page-para {
+    font-size: 20px;
+  }
+  
+  .carousel-inner{
+    width: 350px;
+    height: 250px;
+  } 
+
+  .carousel-item {
+    margin-left: 8px;
+  
+  }
+
+  .about-page-para2 {
+    width: 280px;
+    font-size: 11px;
+  }
+
+
+  .about-img-picture {
+    width: 200px;
+    height: 200px;
+   }
+ 
+ .about-img-picture img {
+   width: 180px;
+   height: 180px;
+ }
+
+ .about-page .read-me {
+  font-size: 14px;
+  padding:10px 15px 10px 15px;
+ }
+ 
+}
+
