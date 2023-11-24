@@ -128,7 +128,7 @@ transition: 0.15s;
   }
 }
 
-@media only screen and (max-width:1192px){
+@media only screen and (max-width:1700px){
   .header-right-section {
     display: none;
     width: 0px;

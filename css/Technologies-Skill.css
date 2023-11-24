@@ -542,13 +542,23 @@ font-size: 10px;
 
 
 @media only screen and (max-width:740px){
+.Technologies-Skills-page {
+justify-content: start;
+
+}
+
+.tech-skill-head {
+  margin-top: 20px;
+}
+
   .Technologies-Skills-container {
     max-width: 300px;
+   
     
   }
 
   .Technologies-container,.skills-container{
-   
+    margin-top: 20px;
     width: 300px;
    
   }
