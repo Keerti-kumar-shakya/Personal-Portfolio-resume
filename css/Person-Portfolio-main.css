@@ -169,6 +169,7 @@ align-items: center;
 }
 
 .Download-CV button a{
+  background-color: rgb(167, 210, 223);
   padding: 15px 25px 15px 25px;
   font-size: 20px;
 text-decoration: none;
@@ -178,7 +179,7 @@ font-weight: bold;
 }
 
 .Download-CV button:hover {
-  font-size: 24px;
+  font-size: 22px;
   transition: 0.15s;
 }
 
@@ -291,11 +292,6 @@ font-weight: bold;
     font-size: 18px;
   }
 
-  .Download-CV button:hover {
-    font-size: 20px;
-   
-  }
-
 }
 
 @media only screen and (max-width:785px){ 
@@ -400,12 +396,7 @@ margin-top: 115px;
     font-size: 18px;
   }
 
-  .Download-CV button:hover {
-    font-size: 20px;
-   
-  }
-
-   
+ 
  }
 
 
@@ -476,10 +467,4 @@ margin-top: 115px;
     font-size: 18px;
   }
 
-  .Download-CV button:hover {
-    font-size: 20px;
-   
-  }
-
-   
  }
