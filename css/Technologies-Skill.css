@@ -4,11 +4,11 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid white;
+ 
 }
 
 .tech-skill-head {
-  border: 1px solid white;
+ 
   font-size: 40px;
   color: white;
   font-weight: bold;
@@ -19,7 +19,7 @@
 }
 
 .Technologies-Skills-container {
-  border: 1px solid white;
+ 
   width: 1200px;
   height: 900px;
   display: flex;
@@ -28,13 +28,13 @@
 }
 
 .Technologies-container,.skills-container {
-  border: 1px solid white;
+ 
   width:1200px;
   height: 900px;
   }
 
   .Technologies-container {
-    border: 1px solid white;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
   }
 
   .flip-card {
-    border: 1px solid white;
+    
     width: 350px;
     height: 400px;
     border-radius: 1rem;
@@ -60,24 +60,24 @@
 
 
   .card-1 {
-    border: 1px solid white;
+   
     filter: hue-rotate(150deg);
     
   }
 
   .card-2 {
-    border: 1px solid white;
+    
     filter: hue-rotate(300deg);
   }
 
   .card-3 {
-    border: 1px solid white;
+    
     filter: hue-rotate(0deg);
   }
 
 
   .back-card {
-    border: 1px solid white;
+   
     background-color: white;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@
   }
 
   .back-card, .front-card{
-    border: 1px solid white;
+    
     position: absolute;
     width: 350px;
    height: 400px;
@@ -114,7 +114,7 @@
   }
 
   .front-box {
-    border: 1px solid white;
+    
     position: relative;
  width: 350px;
  height: 250px;
@@ -154,7 +154,6 @@
 
   ol {
    
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -167,14 +166,14 @@
   }
 
 .skills-container{
-  border: 1px solid white;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
   .skills-box {
-    border: 1px solid white;
+   
     width: 1000px;
     height: 380px;
     border-radius: 1rem;
@@ -185,11 +184,11 @@
   }
 
   .html-box, .css-box2, .js-box3 {
-    border: 1px solid white;
+    
   }
 
   .tech-para-html-box, .tech-para-css-box2, .tech-para-js-box3 {
-    border: 1px solid white;
+    
     width: 800px;
     display: flex;
     justify-content: space-between;

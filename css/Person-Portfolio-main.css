@@ -16,7 +16,7 @@ body {
 
 height: 1100px;
 background-color: black;
-border: 1px solid white;
+border: 0.5px solid rgba(243, 239, 239,0.2);
 position: static;
 left: 0;
 right: 0;
@@ -35,7 +35,6 @@ color: white;
 
 .profile-container {
 
- border: 3px solid violet;
   display: grid;
 grid-template-columns: 1fr 1fr;
 margin-top: 250px;
@@ -44,7 +43,7 @@ margin-top: 250px;
 
 
 .social-media-links {
-  border: 1px solid white;
+ 
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
@@ -66,13 +65,11 @@ border: none;
 }
 
 .social-media-links a {
-  border: 1px solid white;
- 
+
 }
 
 .Profile-name {
 
-  border: 1px solid red;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -81,7 +78,7 @@ align-items: center;
 }
 
 .profile-name-container {
-  border: 1px solid white;
+
 
 }
 
@@ -89,20 +86,17 @@ align-items: center;
   font-size: 40px;
   font-weight: 900;
   font-family: Roboto;
-
-  border: 1px solid white;
 }
 
 .profile-name-container p:nth-child(2) {
   font-size: 35px;
   color: #00a5ea;
   font-weight: 900;
-  border: 1px solid white;
 }
 
 .profile-name-container p:nth-child(3) {
   font-size: 23px;
-  border: 1px solid white;
+ 
 }
 
 .cot-para {
@@ -116,19 +110,18 @@ font-style: normal;
 
 
 .profile-picture{
-  border: 1px solid white;
+  
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
 .profile-picture-box {
-  border: 1px solid white;
 
 }
 
 .profile-picture-box img {
-  border: 1px solid white;
+ 
   object-fit: cover;
   object-position: center;
   width: 400px;
@@ -137,7 +130,7 @@ align-items: center;
 }
 
 .button-profile {
-  border: 1px solid white;
+
   width: 300px;
  justify-content: space-between;
 }
@@ -274,7 +267,7 @@ font-weight: bold;
   
   .profile-name-container p:nth-child(3) {
     font-size: 20px;
-    border: 1px solid white;
+  
   }
 
   .button-profile button:nth-child(1) {
@@ -383,7 +376,7 @@ margin-top: 115px;
   
   .profile-name-container p:nth-child(3) {
     font-size: 17px;
-    border: 1px solid white;
+    
   }
 
   .button-profile button:nth-child(1) {
@@ -459,7 +452,7 @@ margin-top: 115px;
   
   .profile-name-container p:nth-child(3) {
     font-size: 16px;
-    border: 1px solid white;
+    
   }
 
   .button-profile button:nth-child(1) {

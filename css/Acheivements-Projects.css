@@ -20,7 +20,7 @@ color:#04adf3;
 }
 
 .Projects-container  {
-  border: 1px solid red;
+ 
   width: 1600px;
   height: 700px;
   display: grid;
@@ -30,7 +30,7 @@ color:#04adf3;
 }
 
 .Achievements-achieved {
-  border: 1px solid white;
+
   width: 1600px;
   height: 350px;
   display: grid;

@@ -67,7 +67,7 @@ height: 900px;
 }
 
  .about-page-para2{
-  border: 1px solid white;
+  
 width: 650px;
   font-size: 18px;
   position: relative;
@@ -98,7 +98,7 @@ width: 650px;
 .carousel-inner {
 
   width: 900px;
-  border: 1px solid red;
+ 
   display: flex;
  align-items: center;
 align-items: center;
@@ -114,11 +114,11 @@ text-align: justify;
 height: 200px;
 padding-left: 25px;
 margin-top: 50px;
-border: 1px solid violet;
+
 }
 
 .carousel-indicators {
-  border: 1px solid white;
+
 
 }
 
@@ -129,6 +129,7 @@ border: 1px solid violet;
   
   .about-page {
     height: 850px;
+    padding-left: 0px;
       }
   
   .carousel-inner{

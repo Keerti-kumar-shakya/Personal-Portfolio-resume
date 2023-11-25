@@ -3,7 +3,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 z-index: 10;
-border: 1px solid white;
   background-color: black;
   position: fixed;
 left: 0;
@@ -15,7 +14,7 @@ top: 0;
 
 
 .header-left-section {
-  border: 1px solid white;
+ 
   display: flex;
   width: 300px;
   height: 100px;
@@ -45,14 +44,14 @@ border-radius: 50%;
 }
 
 .header-right-section {
-  border: 1px solid white;
+ 
   width: 1300px;
   height: 100px;
  
 }
 
 .nav-link {
-  border: 1px solid white;
+ 
   display: flex;
   justify-content: space-between;
  align-items: center;
@@ -62,9 +61,8 @@ border-radius: 50%;
 }
 
 .nav-link li{
-  border: 1px solid white;
+ 
   position: relative;
-
 
  list-style: none;
  overflow: hidden;

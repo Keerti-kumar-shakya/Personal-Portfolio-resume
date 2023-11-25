@@ -18,7 +18,7 @@ align-items: center;
 }
 
 .Education-experience-heading {
- border: 1px solid white;
+ 
   width: 1235px;
   height: 70px;
   display: grid;
@@ -33,7 +33,7 @@ font-weight: bold;
 
 .Education-experience-container {
   display: flex;
-  border: 1px solid red;
+ 
 }
 
 
@@ -108,6 +108,7 @@ row-gap: 20px;
 @media only screen and (max-width:1365px){
   .Education-page{
     padding-left: 0px;
+  
 }
 
 }
@@ -136,7 +137,7 @@ font-size: 28px;
 }
 
 .Education-heading, .experience-heading {
-  border: 1px solid white;
+ 
 width: 500px;
 }
 
@@ -199,7 +200,7 @@ font-size: 25px;
 }
 
 .Education-heading, .experience-heading {
-  border: 1px solid white;
+ 
 width: 400px;
 }
 
@@ -261,7 +262,7 @@ font-size: 25px;
 }
 
 .Education-heading, .experience-heading {
-  border: 1px solid white;
+ 
 width: 400px;
 }
 
@@ -327,7 +328,7 @@ font-size: 25px;
 }
 
 .Education-heading, .experience-heading {
-  border: 1px solid white;
+  
 width: 400px;
 }
 
@@ -397,7 +398,7 @@ height: 30px;
 }
 
 .Education-heading, .experience-heading {
-  border: 1px solid white;
+  
 width: 300px;
 
 }
@@ -462,7 +463,7 @@ font-size: 14px;
 }
 
 .Education-heading, .experience-heading {
-  border: 1px solid white;
+ 
 width: 185px;
 
 }

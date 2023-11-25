@@ -1,5 +1,5 @@
 .contact-page {
-  border:1px solid orange;
+ 
  display: flex;
   justify-content: center;
   align-items: center;
@@ -8,13 +8,13 @@
 }
 
 .box4 {
- border:1px solid white;
+
   width: 600px;
   height: 450px;
 }
 
 .Author-bio {
-  border:1px solid white;
+  
   display: flex;
  flex-direction: column;
  justify-content:left;
@@ -23,12 +23,12 @@
 
 .bio1{
   height: 112px;
-  border:1px solid white;
+
  
 }
 
 .author-1 {
-  border:1px solid white;
+
   display: flex;
   align-items: center;
   font-size: 50px;
@@ -92,7 +92,7 @@ transition: 0.15s;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border:1px solid red;
+  
 }
 
 .user-data input:nth-child(1), .user-data input:nth-child(2) {
@@ -218,7 +218,7 @@ textarea {
 
   .bio1{
     height: 70px;
-    border:1px solid white;
+   
    
   }
 
