@@ -206,7 +206,7 @@ font-weight: bold;
    
     .profile-page{
       
-      padding-left: 70px;
+      padding-left: 0px;
       height: 800px;
       color: white;
       
@@ -428,7 +428,7 @@ margin-top: 115px;
 
   .profile-page{
     height: 870px;
-  
+  padding-left: 50px;
   
     }
 

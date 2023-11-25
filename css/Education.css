@@ -107,7 +107,7 @@ row-gap: 20px;
 /*######################################################*/
 @media only screen and (max-width:1365px){
   .Education-page{
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 }
@@ -443,12 +443,12 @@ font-size: 14px;
 @media only screen and (max-width:425px){
 
   .Education-page{
-   height: 750px;
+   height: 700px;
 }
 
   .box0,.box1 {
-    width: 200px;
-    height: 120px;
+    width: 180px;
+    height: 130px;
     justify-content: space-between; 
    
    
@@ -482,10 +482,18 @@ width: 185px;
   .Education-container, .experience-container {
     width: 180px;
     height: 550px;
-    grid-template-columns: 180px;
+    grid-template-columns: 140px;
     row-gap: 0px;
-    margin-right: 30px;
+   
 
+  }
+
+  .experience-container {
+    padding-left: 8px;
+  }
+
+  .Education-container {
+    padding-left: 8px;
   }
 
 .deg-date-edu {
@@ -502,7 +510,7 @@ font-size: 12px;
 }
 
 .box1 {
-  margin-left: 10px;
+ 
 }
 
 .journey {

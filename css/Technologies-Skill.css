@@ -246,6 +246,10 @@
 /*##################################################*/
 
 @media only screen and (max-width:1310px){
+  .Technologies-Skills-page {
+    padding-left: 0px;
+  }
+
   .Technologies-Skills-container {
     max-width: 1030px;
   }
@@ -345,6 +349,8 @@ font-size: 14px;
 
 
 @media only screen and (max-width:1003px){
+
+
   .Technologies-Skills-container {
     max-width: 885px;
   }
@@ -662,6 +668,135 @@ font-size: 9px;
     padding-top: 10px;
   }
 }
+
+
+@media only screen and (max-width:425px){
+  .Technologies-Skills-page {
+  justify-content: start;
+  padding-left: 0px;
+  }
+  
+  .Technologies-Skills-page .tech-skill-head {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+    .Technologies-Skills-container {
+      width: 300px;
+     
+    }
+  
+    .Technologies-container,.skills-container{
+      margin-top: 20px;
+      width: 300px;
+     
+    }
+  
+    .skills-container {
+      height: 300px;
+    }
+  
+    .skills-box {
+      padding-top: 10px;
+      justify-content: start;
+    }
+  
+    .tech-skill-head {
+      font-size: 25px;
+    }
+  
+    .flip-card {
+      width: 300px ;
+      height: 30px ;
+    }
+  
+    .back-card, .front-card {
+      width: 200px ;
+      height: 240px;
+    }
+  
+    .front-box {
+      height: 120px;
+      width: 200px;
+    }
+  
+    .card-1, .card-2, .card-3 {
+      margin-top: 20px;
+      width: 200px ;
+      height: 240px;
+    }
+  
+    ol {
+      width: 200px ;
+      height: 240px;
+    }
+  
+    ol li {
+  font-size: 9px;
+  
+    }
+  
+    .skills-box {
+      margin-top: 100px;
+      width: 280px;
+     
+    }
+  
+    .tech-para-html-box, .tech-para-css-box2, .tech-para-js-box3 {
+      width: 280px;
+      height: 25px;
+    }
+  
+    .percentage-maths, .percentage-maths2, .percentage-maths3 {
+      font-size: 14px;
+    }
+  
+    .tech-para-html, .tech-para-css2, .tech-para-js3 {
+      font-size: 14px;
+    }
+  
+    .html-percentage-box, .css-percentage-box2, .js-percentage-box3 {
+      width: 280px;
+      height: 20px;
+    }
+  
+    .html-percentage {
+      width: 240px;
+      height: 20px;
+    }
+  
+    .css-percentage2 {
+      width: 200px;
+      height: 20px;
+    }
+  
+    .js-percentage3 {
+      width: 100px;
+      height: 20px;
+    }
+  
+    
+    .contain-img{
+      width: 60px;
+      height: 60px;
+      left: 20px;
+      top: -45px;
+    }
+  
+    .contain-img img {
+     width: 60px;
+     height: 60px;
+    }
+  
+    .html-box, .css-box2, .js-box3 {
+      padding-top: 10px;
+    }
+
+    .topics-hover {
+      font-size: 13px;
+    }
+  }
+  
 
 
 
