@@ -157,7 +157,7 @@ align-items: center;
  border-radius: 0.5rem;
 }
 
-.Download-CV{
+.Download-CV button{
   margin-top: 20px;
   background-color: rgb(167, 210, 223);
   padding: 15px 25px 15px 25px;
@@ -168,7 +168,7 @@ align-items: center;
  
 }
 
-.Download-CV a{
+.Download-CV button a{
   padding: 15px 25px 15px 25px;
   font-size: 20px;
 text-decoration: none;
@@ -177,7 +177,7 @@ font-weight: bold;
 
 }
 
-.Download-CV:hover {
+.Download-CV button:hover {
   font-size: 24px;
   transition: 0.15s;
 }
@@ -286,12 +286,12 @@ font-weight: bold;
     
   }
 
-  .Download-CV {
+  .Download-CV button{
     padding: 15px 20px 15px 20px;
     font-size: 18px;
   }
 
-  .Download-CV:hover {
+  .Download-CV button:hover {
     font-size: 20px;
    
   }
@@ -395,12 +395,12 @@ margin-top: 115px;
     
   }
 
-  .Download-CV {
+  .Download-CV button{
     padding: 15px 18px 15px 18px;
     font-size: 18px;
   }
 
-  .Download-CV:hover {
+  .Download-CV button:hover {
     font-size: 20px;
    
   }
@@ -471,11 +471,15 @@ margin-top: 115px;
     
   }
 
-  .Download-CV {
+  .Download-CV button{
     padding: 15px 18px 15px 18px;
     font-size: 18px;
   }
 
+  .Download-CV button:hover {
+    font-size: 20px;
+   
+  }
 
    
  }
